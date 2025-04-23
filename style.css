@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    max-width: 90%;
+  }
+  
+  button:hover {
+    background-color: #ff85c1;
+  }
+  
+  .mensagem-escondida {
+    display: none;
+  }
+  
+  .mensagem-visivel {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px;
+  }
+  
+  .imagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .imagem-pessoa {
+    width: 200px;  /* Tamanho ajustado para o PC */
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 15px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    button {
+      font-size: 15px;
+      padding: 10px 20px;
+    }
+  
+    .mensagem-visivel {
+      font-size: 15px;
+    }
+  
+    .imagem-pessoa {
+      width: 120px;  /* Ajusta o tamanho da imagem para mobile */
+      height: 120px;
+    }
+  }
