@@ -10,6 +10,7 @@ Mensagem personalizada de amor.
 Design limpo e romântico.
 
 📁 Estrutura do Projeto
+
 index.html – Estrutura principal da página.
 
 style.css – Estilos para a apresentação visual.
