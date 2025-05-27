@@ -20,5 +20,6 @@ script.js – Funcionalidades interativas da página.
 WhatsApp Image 2025-04-22 at 22.34.47.jpeg – Imagem ilustrativa utilizada no projeto.
 
 🚀 Como Visualizar
+
 Você pode visualizar o projeto acessando o arquivo index.html em seu navegador. 
 Basta você clicar nesse link https://hugordm.github.io/te-amo-aysla/
